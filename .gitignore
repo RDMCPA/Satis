@@ -16,5 +16,4 @@ web/files/.DS_Store
 web/index.html
 web/packages.json
 
-composer.lock
 SatisPackages.sublime-workspace

@@ -1,0 +1,101 @@
+{
+	"name": "RDMCPA",
+	"homepage": "https://rdmsatis.herokuapp.com/",
+	"repositories":[
+		{ "type": "vcs", "url": "git@github.com:RDMCPA/_s"},
+		{ "type": "vcs", "url": "git@github.com:RDMCPA/wordpress-site"},
+		{ "type": "vcs", "url": "git@github.com:RDMCPA/wordpress-helpers"},
+		{ "type": "vcs", "url": "git@github.com:RDMCPA/bootstrap-wp-theme"},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "dev-master",
+		        "dist": {
+		        	"url": "http://wordpress.org/latest.zip",
+		        	"type": "zip"
+		        }
+		    }
+		},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "3.9.1",
+		        "dist": {
+		        	"url": "http://wordpress.org/wordpress-3.9.1.zip",
+		        	"type": "zip"
+		        }
+		    }
+		},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "3.9",
+		        "dist": {
+		        	"url": "http://wordpress.org/wordpress-3.9.zip",
+		        	"type": "zip"
+		        }
+		    }
+		},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "3.8.1",
+		        "dist": {
+		        	"url": "http://wordpress.org/wordpress-3.8.1.zip",
+		        	"type": "zip"
+		        }
+		    }
+		},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "3.8",
+		        "dist": {
+		        	"url": "http://wordpress.org/wordpress-3.8.zip",
+		        	"type": "zip"
+		        }
+		    }
+		},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "3.7.1",
+		        "dist": {
+		        	"url": "http://wordpress.org/wordpress-3.7.1.zip",
+		        	"type": "zip"
+		        }
+		    },
+		    "require": {
+		    	"johnpbloch/wordpress-core-installer": "dev-master"
+		    }
+		},
+		{
+		    "type": "package",
+		    "package": {
+		        "name": "wordpress/wordpress",
+		        "type": "wordpress-core",
+		        "version": "3.7",
+		        "dist": {
+		        	"url": "http://wordpress.org/wordpress-3.7.zip",
+		        	"type": "zip"
+		        }
+		    },
+		    "require": {
+		    	"johnpbloch/wordpress-core-installer": "dev-master"
+		    }
+		}
+	],
+	"require-all": true
+}
