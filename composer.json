@@ -25,8 +25,15 @@
         "symfony/console": "~2.1@dev",
         "symfony/process": "@dev"
     },
-    "autoload": {
-        "psr-0": { "Composer\\Satis": "src/" }
-    },
-    "minimum-stability": "beta"
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  },
+  "autoload": {
+    "psr-0": { "Composer\\Satis": "src/" }
+  },
+  "minimum-stability": "beta",
+  "scripts": {
+    "satis": "bin/satis build config.json web/",
+    "post-install-cmd": "composer satis"
+  }
 }
